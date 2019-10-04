@@ -1,0 +1,36 @@
+.container{
+    background-color: none;
+}
+
+.mainbloc{
+  height: 100vh;
+  width: 100vw;
+}
+
+.lines {
+  --one-third0: calc(100% / 5);
+  --one-third1: calc((100% / 5) + 1px);
+  --two-third0: calc(100% / 5 * 2);
+  --two-third1: calc((100% / 5 * 2) - 1px);
+  --three-third0: calc(100% / 5 * 3);
+  --three-third1: calc((100% / 5 * 3) - 1px);
+  --four-third0: calc(100% / 5 * 4);
+  --four-third1: calc((100% / 5 * 4) - 1px);
+
+  --line-color: #061E41;
+
+  min-height: 100vh;
+  max-height: 100vh;
+  background-image: 
+    linear-gradient(90deg, transparent, transparent var(--one-third0), var(--line-color) var(--one-third1), transparent var(--one-third1)),
+    linear-gradient(90deg, transparent, transparent var(--two-third1), var(--line-color) var(--two-third0), transparent var(--two-third0)),
+    linear-gradient(90deg, transparent, transparent var(--three-third1), var(--line-color) var(--three-third0), transparent var(--three-third0)),
+    linear-gradient(90deg, transparent, transparent var(--four-third1), var(--line-color) var(--four-third0), transparent var(--four-third0));
+  transform: translate3d(0, 0, 0);
+}
+
+.header{
+  background-color: deeppink;
+  width: 100%;
+  height: 5%;
+}
