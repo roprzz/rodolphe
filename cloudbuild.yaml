@@ -9,5 +9,5 @@ steps:
     entrypoint: yarn
     args: ["build"]
   - name: "node:10.15.1"
-    entrypoint: "./node_modules/.bin/firebase"
-    args: ["deploy", "--project", "$PROJECT_ID", "--token", "$_TOKEN"]
+    entrypoint: yarn
+    args: ["deploy", "--token", "$_TOKEN"]
