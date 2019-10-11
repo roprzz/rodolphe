@@ -4,7 +4,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <div className="header">
-    <h1 className="home-btn">Rodolphe<div className="thick-underline" /></h1>
+    <h1 className="home-btn">rodolphe.dev<div className="thick-underline" /></h1>
     
   </div>
 )
