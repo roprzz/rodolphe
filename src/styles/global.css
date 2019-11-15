@@ -67,3 +67,11 @@
 h1{
   font-size: 72px;
 }
+
+
+.highlight {
+  background: url(https://andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  padding: 8px 0;
+  }
