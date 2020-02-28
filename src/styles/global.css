@@ -86,7 +86,7 @@ h1{
   background-image: 
     linear-gradient(90deg, transparent, transparent var(--one-third0), var(--line-color) var(--one-third1), transparent var(--one-third1)),
     linear-gradient(90deg, transparent, transparent var(--two-third1), var(--line-color) var(--two-third0), transparent var(--two-third0)),
-    linear-gradient(90deg, transparent, transparent var(--three-third1), var(--line-color) var(--three-third0), transparent var(--three-third0)),
+    linear-gradient(90deg, transparent, transparent var(--three-third1), var(--line-color) var(--three-third0), transparent var(--three-third0));
   transform: translate3d(0, 0, 0);
 }
 }
