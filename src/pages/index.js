@@ -13,7 +13,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="container">
     <h1>Hello, I'm</h1>
-    <h1 className="highlight">Rodolphe</h1>
+    <span className="highlight">Rodolphe Peruzza</span>
     I take pics on <a href="https://www.instagram.com/roprzz"><span style={{textDecoration:"underline"}}>Instagram</span></a><br/>
     My previous experience is here <a href="https://www.linkedin.com/in/rperuzza/"><span style={{textDecoration:"underline"}}>LinkedIn</span></a>
     </div>
