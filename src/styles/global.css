@@ -68,10 +68,26 @@ h1{
   font-size: 72px;
 }
 
+/* This is for media query */
 
-.highlight {
-  background: url(https://andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
-  background-repeat: no-repeat;
-  background-size: 100% 95%;
-  padding: 8px 0;
-  }
+@media only screen and (max-width:480px) {
+.lines {
+  --one-third0: calc(100% / 3);
+  --one-third1: calc((100% / 3) + 1px);
+  --two-third0: calc(100% / 3 * 2);
+  --two-third1: calc((100% / 3 * 2) - 1px);
+  --three-third0: calc(100% / 3 * 3);
+  --three-third1: calc((100% / 3 * 3) - 1px);
+
+  --line-color: #061E41;
+
+  min-height: 100vh;
+  max-height: 100vh;
+  background-image: 
+    linear-gradient(90deg, transparent, transparent var(--one-third0), var(--line-color) var(--one-third1), transparent var(--one-third1)),
+    linear-gradient(90deg, transparent, transparent var(--two-third1), var(--line-color) var(--two-third0), transparent var(--two-third0)),
+    linear-gradient(90deg, transparent, transparent var(--three-third1), var(--line-color) var(--three-third0), transparent var(--three-third0)),
+  transform: translate3d(0, 0, 0);
+}
+}
+
